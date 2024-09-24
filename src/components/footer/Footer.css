@@ -1,0 +1,22 @@
+.footer-container{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+.footer-three{
+  position: relative;
+  top: 30px;
+}
+.footer-four{
+  position: relative;
+  top: 80px;
+}
+.footer-one h1, .footer-two h1, .footer-three h1, .footer-four h1{
+  font-size: 25px;
+}
+.footer-one ul, .footer-two ul, .footer-three ul, .footer-four ul{
+  list-style-type: none;
+  line-height: 30px;
+}

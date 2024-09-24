@@ -1,0 +1,39 @@
+.e-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  background-color: aqua;
+}
+.e-card-content{
+  background-color: red;
+  display: flex;
+  width: 70%;
+  height: 130px;
+  border-radius: 12px;
+  gap: 100px;
+}
+
+.e-btn-1{
+  height: 130px;
+  width: 250px;
+  border-top: 130px solid #81afab;
+  border-right: 300px solid transparent;
+  position: relative;
+  left: 370px;
+}
+.e-btn-2{
+  height: 130px;
+  width: 250px;
+  border-bottom: 130px solid #18c75a;
+  border-radius: 47px/10px;
+  position: relative;
+  left: -29px;
+}
+.e-btn-3{
+  position: relative;
+  right: 320px;
+  top: 55px;
+  width: 150px;
+  height: 30px;
+}

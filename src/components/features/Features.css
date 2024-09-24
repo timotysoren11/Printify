@@ -1,0 +1,36 @@
+.feature-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+.features{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+.profits, .scaling, .selection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 350px;
+}
+.feature-img{
+  height: 200px;
+  width: 200px;
+}
+.profits h1, .scaling h1, .selection h1{
+  font-size: 20px;
+  padding: 10px;
+}
+.profits p, .scaling p, .selection p{
+  font-size: 18px;
+  padding: 15px;
+  position: relative;
+  left: 15px;
+}
+
+

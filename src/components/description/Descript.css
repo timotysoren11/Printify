@@ -1,0 +1,136 @@
+.descript-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  background-color: rgb(233, 227, 227);
+  
+}
+.descript-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+}
+.desc-img-container{
+  width: 50%;
+  height: 480px;
+  margin-top: 50px;
+  
+}
+.desc-img-container img{
+  height: 580px;
+  width: 520px;
+  border-radius: 15px;
+}
+.desc-content{
+  width: 60%;
+  background-color: white;
+  position: relative;
+  height: 480px;
+  top: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.desc-content h1, p{
+  position: relative;
+  left: 120px;
+}
+.desc-content p{
+  width: 58%;
+  line-height: 20px;
+  margin-top: 12px;
+  color: grey;
+}
+.products{
+  position: relative;
+  left: 100px;
+  top: 20px;
+  width: 100px;
+  border: none;
+  color: green;
+}
+
+.edit-img{
+  position: relative;
+  top: -170px;
+  right: 55px;
+  background-color: white;
+  border-radius: 12px;
+}
+.edit-btn-container{
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+.edit-btn{
+  padding: 5px;
+  border: none;
+  position: relative;
+  top: 18px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);;
+}
+.edit-img {
+  height: 250px;
+  width: 180px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);;
+}
+.prev-img{
+  position: relative;
+  height: 100px;
+  width: 100px;
+  left: 50px;
+  top: 50px;
+}
+.prev-btn{
+  background-color: darkgreen;
+  color: lightgreen;
+  font-size: 15px;
+  position: relative;
+  top: 90px;
+  left: 30px;
+  width: 120px;
+  height: 20px;
+  border: none;
+  border-radius: 12px;
+}
+
+.swipper-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+.swip-1, .swip-2, .swip-3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+  height: 300px;
+}
+.swip-1 h1, .swip-2 h1, .swip-3 h1{
+  font-size: 25px;
+  line-height: 35px;
+}
+.swip-1 p, .swip-2 p, .swip-3 p{
+  position: relative;
+  left: -0.5px;
+  height: 45px;
+  width: 100%;
+  color: grey;
+}
+.heading{
+  color: green;
+}
+.swip-1 img, .swip-2 img, .swip-3 img{
+  height: 160px;
+  width: 160px;
+  /* position: relative;
+  left: 50px; */
+  
+}
+
+

@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.selling-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+.selling-title-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+  background-color: #203741;
+  height: 600px;
+  border-radius: 12px;
+  position: relative;
+  left: 100px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.selling-title-container h1{
+  font-size: 45px;
+  color: white;
+  padding-bottom: 10px;
+}
+.sell-para-1{
+  position: relative;
+  left: -10px;
+  color: white ;
+}
+table{
+  background-color: #17262b;
+}
+.sell-img-container{
+  width: 50%;
+}
+.sell-img-container{
+  position: relative;
+  left: 100px;
+  top: 30px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sell-btn{
+  position: relative;
+  top: 45px;
+  right: 120px;
+}
+.sell-para-2{
+  position: relative;
+  top: 75px;
+  left: -2px;
+  color: white;
+}
+.sell-btn{
+  height: 35px;
+  width: 140pxs;
+  padding: 5px;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Table CSS */
+.price-table{
+  margin: 20px auto;
+  width: 60%;
+  text-align: center;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+}
+th{
+  background-color: black;
+  font-weight: bold;
+}
+tr:nth-child(even) {
+ color: white;
+}
+table, th, td {
+  text-align: left;
+  color: white;
+}
